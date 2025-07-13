@@ -4,7 +4,7 @@ This is my personal developer portfolio built using **React.js**. It showcases m
 
 ## 🚀 Live Demo
 
-👉 [View Portfolio Live](https://y.vercel.app)
+👉 [View Portfolio Live]([https://y.vercel.app](https://my-portfolio-two-nu-89.vercel.app/))
 
 ## ✨ Features
 
