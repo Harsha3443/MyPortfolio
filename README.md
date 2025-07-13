@@ -1,12 +1,28 @@
-# React + Vite
+# 🌐 Personal Portfolio - Harsha Vardhan Sai
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio built using **React.js**. It showcases my skills, projects, and contact information. It also includes email integration via **EmailJS** for direct contact, a toggle UI component, and smooth animated transitions for a modern and professional experience.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Portfolio Live]([https://y.vercel.app](https://my-portfolio-two-nu-89.vercel.app/))
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive & modern design
+- Animated sections using AOS
+- Custom toggle switch for UI preferences
+- Contact form with EmailJS integration
+- Real-time project showcase
+- Smooth scroll navigation
+
+## 🛠️ Built With
+
+- **React.js**
+- **EmailJS**
+- **Bootstrap (react-bootstrap)**
+- **AOS (Animate on Scroll)**
+- **CSS3**
+- **Vercel** for deployment
+
+## 📁 Folder Structure
+
