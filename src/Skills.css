@@ -1,0 +1,137 @@
+.techstack-section {
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.techstack-section h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.tech-icons-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.tech-icons-grid svg {
+  transition: transform 0.3s ease;
+}
+
+.tech-icons-grid svg:hover {
+  transform: scale(1.2);
+  color: #06d6a0;
+}
+
+
+.skills-section {
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  width: 100px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.skill-card svg {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skill-card {
+  opacity: 0;
+  animation: fadeSlideUp 0.6s ease forwards;
+  animation-fill-mode: both;
+}
+
+
+.skill-card:nth-child(1) { animation-delay: 0.1s; }
+.skill-card:nth-child(2) { animation-delay: 0.2s; }
+.skill-card:nth-child(3) { animation-delay: 0.3s; }
+.skill-card:nth-child(4) { animation-delay: 0.4s; }
+.skill-card:nth-child(5) { animation-delay: 0.5s; }
+.skill-card:nth-child(6) { animation-delay: 0.6s; }
+
+.github-section {
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.github-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: gold;
+}

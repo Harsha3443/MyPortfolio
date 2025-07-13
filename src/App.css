@@ -1,0 +1,55 @@
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar {
+  animation: slideInFromTop 0.8s ease-out;
+}
+
+body {
+  background:#142d4c
+  /* background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite; */
+}
+
+/* @keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+} */
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .section {
+  padding: 80px 20px;
+  color: white;
+  position: relative;
+  z-index: 1;
+} */
+
+/* Top section with straight bottom diagonal */
+/* .section-diagonal-bottom {
+  background: #0f0c29;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+} */
+
+/* Next section with top diagonal */
+/* .section-diagonal-top {
+  background: #302b63;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+} */
